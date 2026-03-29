@@ -39,3 +39,24 @@ luac.out
 *.x86_64
 *.hex
 
+# Archivos compilados de Lua (PZ lee el texto plano, pero por las dudas)
+luac.out
+*.luac
+
+# Configuraciones y caché de Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# Archivos ocultos de Windows y macOS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Archivos temporales o de respaldo que generan algunos editores
+*.bak
+*.swp
+*~
+*.log
